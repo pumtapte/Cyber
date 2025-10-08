@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cybersecurity Learning Hub — Index</title>
+<meta name="description" content="ศูนย์รวม Flip Cards และ Quiz ด้าน Cybersecurity สำหรับพนักงาน">
+<style>
+  :root{
+    --blue:#0a68b4; --pink:#e85aad;
+    --ink:#0f172a; --muted:#64748b;
+    --bg:#f7f9fc; --card:#ffffff; --radius:18px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,'Noto Sans Thai',sans-serif;color:var(--ink);}
+  body{
+    background:linear-gradient(135deg,var(--blue),var(--pink));
+    display:flex;align-items:center;justify-content:center;
+  }
+  .wrap{
+    width:100%;max-width:940px;margin:20px;padding:20px;
+    background:rgba(255,255,255,0.9);
+    border-radius:22px;box-shadow:0 20px 40px rgba(0,0,0,.18);
+    text-align:center;
+  }
+  .logo{width:288px;height:288px;margin:8px auto 10px;display:flex;align-items:center;justify-content:center}
+  .logo img{width:100%;height:100%;object-fit:contain}
+  h1{margin:6px 0 4px;font-size:clamp(28px,4.2vw,42px);font-weight:900;color:#0f172a}
+  p.sub{margin:0 0 14px;color:#475569;font-size:clamp(16px,2.4vw,18px)}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+  .btn{
+    appearance:none;border:none;border-radius:14px;padding:14px 20px;
+    font-weight:900;cursor:pointer;box-shadow:0 10px 18px rgba(0,0,0,.08);
+    text-decoration:none;display:inline-block;transition:transform .15s ease,box-shadow .15s ease;
+  }
+  .btn:active{transform:translateY(1px);box-shadow:0 6px 12px rgba(0,0,0,.08)}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-outline{background:#fff;color:var(--blue);border:2px solid var(--blue)}
+  .meta{margin-top:14px;color:#64748b;font-size:.95rem}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="logo"><img src="LOGOADLER.png" alt="ADLER Logo"></div>
+    <h1>Cybersecurity Learning Hub</h1>
+    <p class="sub">การเรียนรู้ด้านความปลอดภัยไซเบอร์สำหรับพนักงาน</p>
+    <div class="btns">
+      <a class="btn btn-primary" href="./cybersecurity_flip_cards_th_en_with_quiz.html">🔐 แบบฝึก Flip Cards</a>
+      <a class="btn btn-outline" href="./cybersecurity_quiz_th_en.html">📝 แบบทดสอบ Quiz</a>
+    </div>
+    <div class="meta">© 2025 Adler — พร้อมใช้งานบนมือถือ</div>
+  </main>
+</body>
+</html>
